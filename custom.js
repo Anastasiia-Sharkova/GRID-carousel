@@ -99,6 +99,7 @@ timeline.
          duration: 1,
          writingMode: "horizontal-tb",
          textOrientation: "sideways",
+         letterSpacing: "0.1vw",
        },
        '+=1.6'
      )
@@ -110,6 +111,7 @@ timeline.
          duration: 1.5,
          writingMode: "vertical-lr",
          textOrientation: "upright",
+         letterSpacing: "-0.1vw",
        },
      )
        .to(
@@ -120,6 +122,7 @@ timeline.
          duration: 1.7,
          writingMode: "horizontal-tb",
          textOrientation: "sideways",
+         letterSpacing: "0.1vw",
        },
        '<'
      )
@@ -131,6 +134,7 @@ timeline.
          duration: 1.5,
          writingMode: "vertical-lr",
          textOrientation: "upright",
+         letterSpacing: "-0.1vw",
        },
      )
      .to(
@@ -141,6 +145,7 @@ timeline.
          duration: 1.8,
          writingMode: "horizontal-tb",
          textOrientation: "sideways",
+         letterSpacing: "0.1vw",
        },
        '<'
      )
@@ -152,6 +157,7 @@ timeline.
          duration: 1.9,
          writingMode: "vertical-lr",
          textOrientation: "upright",
+         letterSpacing: "-0.1vw",
        },
      )
      .to(
@@ -162,6 +168,7 @@ timeline.
          duration: 1.8,
          writingMode: "horizontal-tb",
          textOrientation: "sideways",
+         letterSpacing: "0.1vw",
        },
        '<'
      )
@@ -172,6 +179,7 @@ timeline.
          duration: 1,
          writingMode: "vertical-lr",
          textOrientation: "upright",
+         letterSpacing: "-0.1vw",
        },
      )
      .to(
@@ -182,6 +190,7 @@ timeline.
          duration: 1.7,
          writingMode: "horizontal-tb",
          textOrientation: "sideways",
+         letterSpacing: "0.1vw",
        },
        "<"
      )
@@ -197,6 +206,7 @@ const growTextSection = (section) => {
   gsap.to(section, {
     writingMode: "horizontal-tb",
     textOrientation: "sideways",
+    letterSpacing: "0.1vw",
     duration: 1,
     delay: 1,
     ease: "expo.inOut",
@@ -215,6 +225,7 @@ const shrinkTextSection = (section) => {
   gsap.to(section, {
     writingMode: "vertical-lr",
     textOrientation: "upright",
+    letterSpacing: "-0.1vw",
     duration: 1,
     delay: 1,
     ease: "expo.inOut",
@@ -242,6 +253,7 @@ function onStartFunction(){
     width: "80vw",
     writingMode: "horizontal-tb",
     textOrientation: "sideways",
+    letterSpacing: "0.1vw",
     duration: 0,
   });
 

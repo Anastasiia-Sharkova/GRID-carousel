@@ -1,3 +1,7 @@
+@font-face {
+  font-family: 'Kamerik';
+  src: url(./fonts/kamerik205-heavy.woff2) format(woff2);
+}
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -118,6 +122,8 @@ a {
   height: 100vh;
   writing-mode: vertical-lr;
   text-orientation: upright;
+  font-family: 'Kamerik';
+  font-size: 1vw;
 }
 
 .image {
@@ -134,14 +140,13 @@ a {
 
 .image-description {
   position: absolute;
-  bottom: 10px;
   margin: 0 auto;
   height: 100%;
   display: inline-block;
   color: #fff;
-  transform: translateX(-50%);
   left: 50%;
   top: 7%;
+  transform: translateX(-50%);
   transition: all 2s ease;
   text-shadow: 2px 2px 2px #000000;
 }
